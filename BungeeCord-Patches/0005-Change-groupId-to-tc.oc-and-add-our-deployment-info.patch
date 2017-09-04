@@ -1,4 +1,4 @@
-From d4842d7abd22ee82ef4d6cb9b3755c4b87540812 Mon Sep 17 00:00:00 2001
+From 82c9f8514a18c85c71369db470b011a4a8389b1b Mon Sep 17 00:00:00 2001
 From: mrapple <tony@oc.tc>
 Date: Sat, 6 Sep 2014 19:38:31 -0500
 Subject: [PATCH] Change groupId to tc.oc and add our deployment info
@@ -371,7 +371,7 @@ index 082f0908..2009e9bb 100644
      <version>1.12-SNAPSHOT</version>
      <packaging>jar</packaging>
 diff --git a/pom.xml b/pom.xml
-index 714d421d..91821f2c 100644
+index 714d421d..4583e2ab 100644
 --- a/pom.xml
 +++ b/pom.xml
 @@ -9,7 +9,7 @@
@@ -425,7 +425,12 @@ index 714d421d..91821f2c 100644
          <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      </properties>
  
-@@ -86,12 +108,6 @@
+@@ -82,16 +104,10 @@
+         <dependency>
+             <groupId>com.google.guava</groupId>
+             <artifactId>guava</artifactId>
+-            <version>20.0</version>
++            <version>17.0</version>
              <scope>compile</scope>
          </dependency>
          <dependency>
